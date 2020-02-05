@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "222167473828",
+    "firebase_url": "https://iihmoible.firebaseio.com",
+    "project_id": "iihmoible",
+    "storage_bucket": "iihmoible.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:222167473828:android:aa8d4fe88a658312",
+        "android_client_info": {
+          "package_name": "br.dexter.iihmobile"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "222167473828-utjkq5gq6fst2dkgid5hlnhfj9bou910.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "br.dexter.iihmobile",
+            "certificate_hash": "c2e23a9305b2c5ec475e72ad8e4f56b9402ee4ad"
+          }
+        },
+        {
+          "client_id": "222167473828-9vf9ou0nqtpmt0fuc7hm05cqf6bnlhtl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBTrzL5EgTUqr5iAS3o57gFVJghxQRvpqg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "222167473828-9vf9ou0nqtpmt0fuc7hm05cqf6bnlhtl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".SobreNos">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:clipToPadding="false"
+        tools:ignore="UselessParent">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:clickable="true"
+            android:focusable="true"
+            android:shape="ring"
+            android:thicknessRatio="2"
+            app:cardCornerRadius="5dp"
+            android:layout_margin="5dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp"
+                    android:gravity="center_vertical"
+                    android:text="DESENVOLVIMENTO"
+                    android:textSize="17sp"
+                    android:textStyle="bold"
+                    tools:ignore="HardcodedText,RtlHardcoded" />
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:clickable="true"
+            android:focusable="true"
+            android:shape="ring"
+            android:thicknessRatio="2"
+            app:cardCornerRadius="5dp"
+            android:layout_margin="5dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="start">
+
+                <View
+                    android:layout_width="2.5dp"
+                    android:layout_height="match_parent"
+                    android:background="@color/colorPrimary"
+                    android:layout_margin="10dp">
+                </View>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp"
+                    android:gravity="center_vertical"
+                    android:text="Piorsky, A. L. O &amp; Veras, D. S. 2018.\nIFMA Campus Caxias.\n\nAdaptado de NESSIMIAN, J. L: VENTICINQUE, E. M.; ZUANON, J.; DE MARCO, P.; GORDO, M.; FIDELIS, L.; D ARC BATISTA, J.; JUEN, L. Land use, habitat integrity, and aquatic insect assemblages in Central Amazonian streams Hydrobiologia, v. 614, n. 1, p. 1-15, 2008."
+                    android:textStyle="bold"
+                    tools:ignore="HardcodedText,RtlHardcoded" />
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+    </LinearLayout>
+
+</androidx.core.widget.NestedScrollView>
